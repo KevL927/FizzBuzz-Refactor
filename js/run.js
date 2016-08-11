@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
   $('#enter-number-form').submit(function(event) {
-    $('.answer').empty()
+    $('.answer').empty();
     event.preventDefault();
     var enteredNum = $('#integer-entry').val();
         enteredNum = +enteredNum;
